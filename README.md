@@ -9,4 +9,10 @@ Main advantages of this working method are:
 - standardize the analysis workflow
 - combine the ImageJ functionalities with Python tools and packages
 
-Examples for the installation and initialization of ImageJ are already available (https://github.com/imagej/pyimagej/tree/master/doc).
+Examples for the installation and initialization of ImageJ are already available here: https://github.com/imagej/pyimagej/tree/master/doc.
+
+The IPAN project is devided in multiple notebooks. 
+The first one available is the "00 - introduction" that shows:
+- how to open an image (different options and purposes)
+- how to run a ImageJ Macro from JN 
+- How to save results/pictures from the Macro

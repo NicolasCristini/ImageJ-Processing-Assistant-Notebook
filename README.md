@@ -42,10 +42,10 @@ $ conda install -c conda-forge jpype1
     ```
     
     
-#### Folders
+#### Folder and File structure
 
 For the purpose of showing how to import and export images/tables in jupyter notebook it is required to have a set of directory organized as specified below:
-* Create a folder called "IPAN" in your home directory. - from the cmd line ↴ -
+* Create a folder called "IPAN" in your home directory. {from the cmd line ↴}
 ```
 $ cd ~
 $ mkdir -p IPAN-Project
@@ -53,10 +53,23 @@ $ mkdir -p IPAN-Project
 * Download the "Images" folder available in this repository, remane it "Images" and save it in the "IPAN" folder. 
     *  [Download tool](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FNicolasCristini%2FImageJ-Processing-Assistant-Notebook%2Ftree%2Fmain%2FImages)
     *  [Repository URL](https://github.com/NicolasCristini/ImageJ-Processing-Assistant-Notebook/tree/main/Images) {to copy and paste in the download tool}
-* Download the .ipynb you are interested in and save it in the "IPAN" folder 
-* Activate the pyimagej environment, lunch the jupyter notebook - from the cmd line ↴ -
+* Download the .ipynb you are interested in and save it in the "IPAN" folder
+* Download the SupportingFunctino.py file and save it in the "IPAN" folder 
+* Activate the pyimagej environment, lunch the jupyter notebook {from the cmd line ↴}
 ```
 $ conda activate pyimagej
 $ jupyter notebook
 ```
 * Browse for the IPAN-project folder and open the downloaded .ipnyb file
+
+The files should be organized in the following way:
+
+(home) ~/
+├─ IPAN-project/
+│  ├─ IMAGES/
+│  │  ├─ Image-test.tif
+│  │  ├─ image-test1.tif
+│  │  ├─ image-test2.tif
+│  ├─ SupportingFunction.py
+│  ├─ 00-Introduction.ipynb
+

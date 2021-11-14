@@ -30,15 +30,15 @@ $ conda install -c conda-forge jpype1
 3. Install the lybraries that will be imported in the notebbok
     * scyjava [here](https://pypi.org/project/scyjava/)      {optional}   used to set maximum memory pool
     ```
-    pip install scyjava
+    $ pip install scyjava
     ```
     * skimage [here](https://scikit-image.org/docs/dev/install.html)                  used to import/show images
     ```
-    conda install scikit-image 
+    $ conda install scikit-image 
     ```
     * IPython.display [here](https://ipython.readthedocs.io/en/stable/api/generated/IPython.display.html)          used to just display images (should be already installed)
     ```
-    conda install -c anaconda ipython
+    $ conda install -c anaconda ipython
     ```
     
     

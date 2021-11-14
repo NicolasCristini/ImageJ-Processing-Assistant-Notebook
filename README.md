@@ -28,20 +28,20 @@ Below the basic procedure to install Jupyter Notebook [documentation here](https
 
 1. Install Anaconda[download here](https://docs.continuum.io/anaconda/install/hashes/all/).
 2. Install PyimageJ [documentation here](https://github.com/imagej/pyimagej/blob/master/doc/Install.md). Pyimage allows the interaction between Python and ImageJ
-   `conda create -n pyimagej pyimagej openjdk=8`
+   `$ conda create -n pyimagej pyimagej openjdk=8`
 3. Activate the environment before procedding with the other installations.
-   `conda activate pyimagej`
+   `$ conda activate pyimagej`
 4. Install JPipe [documentation here](https://jpype.readthedocs.io/en/latest/install.html). JPype is a Python module to provide full access to Java from within Python.
-   `conda install -c conda-forge jpype1`
+   `$ conda install -c conda-forge jpype1`
    
    
 #### Lybraries
 
 Install the lybraries that will be imported in the notebbok
     * scyjava [here](https://pypi.org/project/scyjava/) {optional} used to set maximum memory pool
-    `pip install scyjava`
+    `$ pip install scyjava`
     * skimage [here](https://scikit-image.org/docs/dev/install.html) used to import/show images
-    `conda install scikit-image`
+    `$ conda install scikit-image`
     * IPython.display [here](https://ipython.readthedocs.io/en/stable/api/generated/IPython.display.html) (should be already installed)
     
 #### Open the Jupyter Notebook
@@ -49,8 +49,8 @@ Install the lybraries that will be imported in the notebbok
 5. Clone the IPAN repository [download here](https://github.com/NicolasCristini/ImageJ-Processing-Assistant-Notebook/archive/refs/heads/main.zip)
 5. Open a terminal console and move to the cloned directory.
 6. Lunch the jupyter notebook in a web browser window.
-   `jupyter notebook`
-7. Click on the `00-Introduction.ipynb` notebook to open it.
+   `$ jupyter notebook`
+7. Click on the '00-Introduction.ipynb' notebook to open it.
 
 
 ```

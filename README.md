@@ -64,6 +64,7 @@ $ jupyter notebook
 
 The files should be organized in the following way:
 
+```
 (home) ~/
 ├─ IPAN-project/
 │  ├─ IMAGES/
@@ -72,4 +73,4 @@ The files should be organized in the following way:
 │  │  ├─ image-test2.tif
 │  ├─ SupportingFunction.py
 │  ├─ 00-Introduction.ipynb
-
+```

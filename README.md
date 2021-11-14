@@ -46,7 +46,7 @@ Install the lybraries that will be imported in the noteboos:
     
     `$ conda install scikit-image`
     * IPython.display [here](https://ipython.readthedocs.io/en/stable/api/generated/IPython.display.html) (should be already installed)
-    * scyjava [here](https://pypi.org/project/scyjava/) {optional}  Used to set maximum memory pool. This package requires pip.
+    * scyjava [here](https://pypi.org/project/scyjava/) {optional}  Used to set maximum memory pool. The installation of this package requires pip.
     
     `$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`
     

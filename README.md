@@ -85,5 +85,3 @@ On the official GitHub of ImageJ there are many available notebook written in Sc
 
 Useful links: 
 * It is possible to consult the "Developer discussion for PyImageJ" [here](https://gitter.im/imagej/pyimagej)
-* 
-

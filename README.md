@@ -76,3 +76,14 @@ Install the lybraries that will be imported in the noteboos:
 │  ├─ SupportingFunction.py
 │  ├─ 00-Introduction.ipynb
 ```
+
+### Example Notebooks
+On the official GitHub of ImageJ there are many available notebook written in ScyJAVA by CurtisReuden [here](https://github.com/imagej/tutorials) written using the SkyJava kernel in Jupyter Notebook. In the web there are not many notebook that use PyImageJ with python. Python allows the possibility to use tools like NumPy, SciPy, scikit-image, CellProfiler, OpenCV, ITK, etc. It is not possible to this tool from Jython, this is a reason more to combine the ImageJ functionalities with Python. Below some example of Pyimagej notebooks:
+   * ImageJ with Python Kernel [here](https://nbviewer.org/github/imagej/tutorials/blob/master/notebooks/1-Using-ImageJ/6-ImageJ-with-Python-Kernel.ipynb)
+   * Running a plugin that uses ImageJ1 windows¶ [here](https://github.com/uw-loci/Notebooks/blob/9ed90842f06c93b1c206d36fef2b13555e7273d9/PyImageJ/Rigid%20registration%20with%20pyimagej.ipynb)
+   * IJ macro test example [here](https://github.com/uw-loci/Notebooks/blob/9ed90842f06c93b1c206d36fef2b13555e7273d9/PyImageJ/IJ%20macro%20test.ipynb)
+
+Useful links: 
+* It is possible to consult the "Developer discussion for PyImageJ" [here](https://gitter.im/imagej/pyimagej)
+* 
+

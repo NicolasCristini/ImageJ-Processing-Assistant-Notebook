@@ -67,6 +67,8 @@ Install the lybraries that will be imported in the noteboos:
 ```
 (home) ~/
 ├─ IPAN-project/
+│  ├─ FIGURES/
+│  │  ├─ F01-Install_PyImageJ.png
 │  ├─ IMAGES/
 │  │  ├─ Image-test.tif
 │  │  ├─ image-test1.tif

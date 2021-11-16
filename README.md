@@ -39,7 +39,7 @@ Below the basic procedure to install Jupyter Notebook [documentation here](https
    
 #### Libraries
 
-Install the lybraries that will be imported in the noteboos:
+Install the libraries that will be imported in the noteboos:
 * 00-Introduction:
     * skimage [here](https://scikit-image.org/docs/dev/install.html) used to import/show images
     

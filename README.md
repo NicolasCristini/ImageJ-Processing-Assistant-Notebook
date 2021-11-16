@@ -38,7 +38,7 @@ Below the basic procedure to install Jupyter Notebook [documentation here](https
    `$ conda install -c conda-forge jpype1`
    
    
-#### Lybraries
+#### Libraries
 
 Install the lybraries that will be imported in the noteboos:
 * 00-Introduction:

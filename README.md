@@ -20,13 +20,12 @@ The first one available is the "00 - introduction" that shows:
 - How to save results/pictures from the Macro
 
 
-
 To  run the .ipynb files install the required packages and software. 
 Below the basic procedure to install Jupyter Notebook [documentation here](https://jupyter.org/install),
 
 #### Conda and Packages
 
-1. Install Anaconda[download here](https://docs.continuum.io/anaconda/install/hashes/all/).
+1. Install Anaconda [download here](https://docs.continuum.io/anaconda/install/hashes/all/).
 2. Install PyimageJ [documentation here](https://github.com/imagej/pyimagej/blob/master/doc/Install.md). Pyimage allows the interaction between Python and ImageJ
    
    `$ conda create -n pyimagej pyimagej openjdk=8`

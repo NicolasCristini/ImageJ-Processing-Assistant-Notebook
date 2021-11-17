@@ -5,23 +5,23 @@ ImageJ-Processing-Assistant-Notebook (IPAN) consist of a series of ready-to-use 
 
 For carrying out image analysis we are using the ImageJ software as a library from the Jupyter Notebook coded with Python. This notebook follows the guideline of PyImageJ [here](https://github.com/imagej/pyimagej). 
 
-Main advantages of this working method are:
-- performing the all analysis on one single platform,
+The main advantages of this working method are:
+- performing all analysis on one single platform,
 - standardize the analysis workflow
 - combine the ImageJ functionalities with Python tools and packages
 
 Examples for the installation and initialization of ImageJ are already available 
-here: https://github.com/imagej/pyimagej/tree/master/doc.
+[here](https://github.com/imagej/pyimagej/tree/master/doc).
 
-The IPAN project is devided in multiple notebooks. 
-The first one available is the "00 - introduction" that shows:
+The IPAN project is divided into multiple notebooks. 
+The first one available in the "00 - introduction" that shows:
 - how to open an image (different options and purposes)
-- how to run a ImageJ Macro from JN 
+- how to run an ImageJ Macro from JN 
 - How to save results/pictures from the Macro
 
 
-To  run the .ipynb files install the required packages and software. 
-Below the basic procedure to install Jupyter Notebook [documentation here](https://jupyter.org/install),
+To run the .ipynb files install the required packages and software. 
+Below is the basic procedure to install Jupyter Notebook [documentation here](https://jupyter.org/install),
 
 #### Conda and Packages
 
@@ -29,7 +29,7 @@ Below the basic procedure to install Jupyter Notebook [documentation here](https
 2. Install PyimageJ [documentation here](https://github.com/imagej/pyimagej/blob/master/doc/Install.md). Pyimage allows the interaction between Python and ImageJ
    
    `$ conda create -n pyimagej pyimagej openjdk=8`
-3. Activate the environment before procedding with the other installations.
+3. Activate the environment before proceeding with the other installations.
    
    `$ conda activate pyimagej`
 4. Install JPipe [documentation here](https://jpype.readthedocs.io/en/latest/install.html). JPype is a Python module to provide full access to Java from within Python.
@@ -39,7 +39,7 @@ Below the basic procedure to install Jupyter Notebook [documentation here](https
    
 #### Libraries
 
-Install the libraries that will be imported in the noteboos:
+Install the libraries that will be imported in the notebook:
 * 00-Introduction:
     * skimage [here](https://scikit-image.org/docs/dev/install.html) used to import/show images
     
@@ -60,8 +60,7 @@ Install the libraries that will be imported in the noteboos:
 6. Lunch the jupyter notebook in a web browser window.
    
    `$ jupyter notebook`
-7. Click on the '00-Introduction.ipynb' notebook to open it.
-
+7. Click on the '##-NOTEBOOK.ipynb' to open it.
 
 ```
 (home) ~/
@@ -72,12 +71,15 @@ Install the libraries that will be imported in the noteboos:
 │  │  ├─ Image-test.tif
 │  │  ├─ image-test1.tif
 │  │  ├─ image-test2.tif
+│  │  ├─ image-test3.tif
 │  ├─ SupportingFunction.py
-│  ├─ 00-Introduction.ipynb
+│  ├─ 00-Working with ImageJ pt.1.ipynb
+│  ├─ 00-Working with ImageJ pt.2.ipynb
 ```
 
 ### Example Notebooks
-On the official GitHub of ImageJ there are many available notebook written in ScyJAVA by CurtisReuden [here](https://github.com/imagej/tutorials) written using the SkyJava kernel in Jupyter Notebook. In the web there are not many notebook that use PyImageJ with python. Python allows the possibility to use tools like NumPy, SciPy, scikit-image, CellProfiler, OpenCV, ITK, etc. It is not possible to this tool from Jython, this is a reason more to combine the ImageJ functionalities with Python. Below some example of Pyimagej notebooks:
+On the official GitHub of ImageJ, there are many available notebooks written in ScyJAVA by CurtisReuden [here](https://github.com/imagej/tutorials) written using the SkyJava kernel in Jupyter Notebook. On the web, there are not many notebooks that use PyImageJ with python. Python allows the possibility to use tools like NumPy, SciPy, scikit-image, CellProfiler, OpenCV, ITK, etc. It is not possible to this tool from Jython, this is a reason more to combine the ImageJ functionalities with Python. Below some examples of Pyimagej notebooks:
+
    * ImageJ with Python Kernel [here](https://nbviewer.org/github/imagej/tutorials/blob/master/notebooks/1-Using-ImageJ/6-ImageJ-with-Python-Kernel.ipynb)
    * Running a plugin that uses ImageJ1 windows¶ [here](https://github.com/uw-loci/Notebooks/blob/9ed90842f06c93b1c206d36fef2b13555e7273d9/PyImageJ/Rigid%20registration%20with%20pyimagej.ipynb)
    * IJ macro test example [here](https://github.com/uw-loci/Notebooks/blob/9ed90842f06c93b1c206d36fef2b13555e7273d9/PyImageJ/IJ%20macro%20test.ipynb)

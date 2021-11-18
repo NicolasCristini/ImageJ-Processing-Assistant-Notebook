@@ -36,11 +36,19 @@ Below is the basic procedure to install Jupyter Notebook [documentation here](ht
    
    `$ conda install -c conda-forge jpype1`
    
+#### Open the Jupyter Notebook
+
+5. Clone the IPAN repository [download here](https://github.com/NicolasCristini/ImageJ-Processing-Assistant-Notebook/archive/refs/heads/main.zip)
+5. Open a terminal console and move to the cloned directory.
+6. Lunch the jupyter notebook in a web browser window.
    
+   `$ jupyter notebook`
+7. Click on the '##-NOTEBOOK.ipynb' to open it.
+
 #### Libraries
 
 Install the libraries that will be imported in the notebook:
-* 00-Introduction:
+* 00-Working with ImageJ pt.1:
     * skimage [here](https://scikit-image.org/docs/dev/install.html) used to import/show images
     
     `$ conda install scikit-image`
@@ -52,15 +60,10 @@ Install the libraries that will be imported in the notebook:
     `$ python3 get-pip.py`
     
     `$ pip install scyjava`
-    
-#### Open the Jupyter Notebook
+* 01-Working with ImageJ pt.2:
+    * tiffile
 
-5. Clone the IPAN repository [download here](https://github.com/NicolasCristini/ImageJ-Processing-Assistant-Notebook/archive/refs/heads/main.zip)
-5. Open a terminal console and move to the cloned directory.
-6. Lunch the jupyter notebook in a web browser window.
-   
-   `$ jupyter notebook`
-7. Click on the '##-NOTEBOOK.ipynb' to open it.
+     `conda install -c conda-forge tifffile`
 
 ```
 (home) ~/
@@ -74,12 +77,12 @@ Install the libraries that will be imported in the notebook:
 │  │  ├─ image-test3.tif
 │  ├─ SupportingFunction.py
 │  ├─ 00-Working with ImageJ pt.1.ipynb
-│  ├─ 00-Working with ImageJ pt.2.ipynb
+│  ├─ 01-Working with ImageJ pt.2.ipynb
 ```
 
 ### Example Notebooks
 On the official GitHub of ImageJ, there are many available notebooks written in ScyJAVA by CurtisReuden [here](https://github.com/imagej/tutorials) written using the SkyJava kernel in Jupyter Notebook. On the web, there are not many notebooks that use PyImageJ with python. Python allows the possibility to use tools like NumPy, SciPy, scikit-image, CellProfiler, OpenCV, ITK, etc. It is not possible to this tool from Jython, this is a reason more to combine the ImageJ functionalities with Python. Below some examples of Pyimagej notebooks:
-
+   * Workshop material of the 2020 ImageJ conference [here](https://github.com/imagej/i2k-2020-pyimagej)
    * ImageJ with Python Kernel [here](https://nbviewer.org/github/imagej/tutorials/blob/master/notebooks/1-Using-ImageJ/6-ImageJ-with-Python-Kernel.ipynb)
    * Running a plugin that uses ImageJ1 windows¶ [here](https://github.com/uw-loci/Notebooks/blob/9ed90842f06c93b1c206d36fef2b13555e7273d9/PyImageJ/Rigid%20registration%20with%20pyimagej.ipynb)
    * IJ macro test example [here](https://github.com/uw-loci/Notebooks/blob/9ed90842f06c93b1c206d36fef2b13555e7273d9/PyImageJ/IJ%20macro%20test.ipynb)

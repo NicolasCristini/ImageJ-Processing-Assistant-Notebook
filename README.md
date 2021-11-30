@@ -14,17 +14,17 @@ Examples for the installation and initialization of ImageJ are already available
 [here](https://github.com/imagej/pyimagej/tree/master/doc).
 
 The IPAN project is divided into multiple notebooks. 
-* 00-Working with ImageJ pt.1.ipynb:
+* 01-Working with ImageJ pt.1.ipynb:
      * how to open an image (different options and purposes)
      * how to run an ImageJ Macro from JN 
      * how to save results/pictures from the Macro
  
-* 01-Working with ImageJ pt.2.ipynb:
+* 02-Working with ImageJ pt.2.ipynb:
      * how to run a ImageJ plug-in from JN 
      * how to build generalize functions
      * how to process an image in steps
 
-* 02-Working with ImageJ pt.3.ipynb:
+* 03-Working with IPAN module.ipynb:
      * perform image analysis with imported functions
 
 To run the .ipynb files install the required packages and software. 

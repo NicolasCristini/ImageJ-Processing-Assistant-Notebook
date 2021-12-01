@@ -27,6 +27,13 @@ The IPAN project is divided into multiple notebooks.
 * 03-Working with IPAN module.ipynb:
      * perform image analysis with imported functions
 
+* 04-Nuclei Count-ipynb:
+     * Use the functions from the IPAN module to count the nuclei on multiple images
+     * data import, cleaning, description and visualization 
+     
+* 05-CTCF Measurements.ipynb:
+     * data import, cleaning, description and visualization 
+
 To run the .ipynb files install the required packages and software. 
 Below is the basic procedure to install Jupyter Notebook [documentation here](https://jupyter.org/install),
 
@@ -55,7 +62,7 @@ Below is the basic procedure to install Jupyter Notebook [documentation here](ht
 #### Libraries
 
 Install the libraries that will be imported in the notebook:
-* 00-Working with ImageJ pt.1:
+* 01-Working with ImageJ pt.1:
     * skimage [here](https://scikit-image.org/docs/dev/install.html) used to import/show images
     
     `$ conda install scikit-image`
@@ -68,27 +75,29 @@ Install the libraries that will be imported in the notebook:
     
     `$ pip install scyjava`
     
-* 01-Working with ImageJ pt.2:
+* 02-Working with ImageJ pt.2:
     * tiffile
 
      `conda install -c conda-forge tifffile`
 
-```
-(home) ~/
-├─ IPAN-project/
-│  ├─ FIGURES/
-│  │  ├─ F01-Install_PyImageJ.png
-│  ├─ IMAGES/
-│  │  ├─ Image-test.tif
-│  │  ├─ image-test1.tif
-│  │  ├─ image-test2.tif
-│  │  ├─ image-test3.tif
-│  ├─ SupportingFunction.py
-│  ├─ ProcessingFunction.py
-│  ├─ 00-Working with ImageJ pt.1.ipynb
-│  ├─ 01-Working with ImageJ pt.2.ipynb
-│  ├─ 02-Working with ImageJ pt.3.ipynb
-```
+* 03-Working with IPAN module
+    * IPAN module
+    * numpy [here](https://numpy.org/install/)
+    `conda install numpy`
+
+* 04-Nuclei Count
+    * seaborn [here](https://seaborn.pydata.org/installing.html)
+    `conda install seaborn`
+    
+    * matplotlib [here](https://matplotlib.org/3.1.1/users/installing.html)
+    `python -m pip install -U matplotlib`
+    
+    * pandas [here](https://pandas.pydata.org/docs/getting_started/install.html)
+    `conda install pandas`
+
+* 05-CTCF Measurements
+
+
 
 ### Example Notebooks
 On the official GitHub of ImageJ, there are many available notebooks written in ScyJAVA by CurtisReuden [here](https://github.com/imagej/tutorials) written using the SkyJava kernel in Jupyter Notebook. On the web, there are not many notebooks that use PyImageJ with python. Python allows the possibility to use tools like NumPy, SciPy, scikit-image, CellProfiler, OpenCV, ITK, etc. It is not possible to this tool from Jython, this is a reason more to combine the ImageJ functionalities with Python. Below some examples of Pyimagej notebooks:

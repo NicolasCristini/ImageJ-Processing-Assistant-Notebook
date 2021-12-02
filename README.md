@@ -1,7 +1,7 @@
 # ImageJ-Processing-Assistant-Notebook
 -under development-
 
-ImageJ-Processing-Assistant-Notebook (IPAN) consist of a series of ready-to-use Jupyter Notebooks for performing image analysis. This repository includes analytic pipelines to carry on some of the most requested tasks in the biomedical research field. 
+ImageJ-Processing-Assistant-Notebook (IPAN) consists of a series of ready-to-use Jupyter Notebooks for performing image analysis. This repository includes analytic pipelines to carry out some of the analytical tasks requested in the biomedical research field. 
 
 For carrying out image analysis we are using the ImageJ software as a library from the Jupyter Notebook coded with Python. This notebook follows the guideline of PyImageJ [here](https://github.com/imagej/pyimagej). 
 
